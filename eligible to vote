@@ -1,0 +1,8 @@
+def eligible_to_vote(age):
+    if age >= 18:
+        return "Eligible to Vote"
+    else:
+        return "Not Eligible to Vote"
+
+print(eligible_to_vote(20))
+print(eligible_to_vote(15))
